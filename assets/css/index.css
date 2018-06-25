@@ -15,7 +15,7 @@ div.teaserimage {
     position: relative;
     overflow: hidden;
     background-color: #000;
-    border-bottom: thin solid #8f8f8f;
+    border-bottom: thin solid #c5c5c5;
 }
 
 div.teaserimage-image {

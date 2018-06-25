@@ -3,6 +3,7 @@ layout: page
 title: Ejercicios Cortos
 description: Guías de Ejercicios Complementarios
 permalink: /ejercicios/
+order: 2
 ---
 ## Guias de Ejercicios
 - **Guia 0:** [Diseño de Sistemas]({{site.baseurl}}/ejercicios/guia-0)

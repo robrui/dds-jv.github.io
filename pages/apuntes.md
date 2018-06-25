@@ -3,6 +3,7 @@ layout: page
 title: Apuntes Varios
 description: Listado de Enlaces para tener en cuenta
 permalink: /apuntes/
+order: 1
 ---
 - [Diseño y Sistemas]({{site.baseurl}}/apuntes/sistemas)
 - [Diseño y Metodologías de Desarrollo]({{site.baseurl}}/apuntes/metodologias)

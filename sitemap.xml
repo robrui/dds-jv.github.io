@@ -1,0 +1,20 @@
+---
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    {% for page in site.pages %}
+    {% if page.layout != nil %}
+    {% if page.layout != 'redirect' %}
+    {% if page.layout != 'error' %}
+    {% if page.layout != 'home' %}
+    <url>
+        <nom>{{ page.title }}</nom>
+        <loc>{{ page.url | remove: 'index.html' }}</loc>
+        <ord>{{ page.order }}</ord>
+    </url>
+    {% endif %}
+    {% endif %}
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+</urlset>
